@@ -1,4 +1,4 @@
-# Java and NodeJS Image
+# NodeJS Image
 
 A compact docker image based on Alpine Linux with:
 
