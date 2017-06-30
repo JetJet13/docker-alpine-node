@@ -2,7 +2,7 @@
 
 A compact docker image based on Alpine Linux with:
 
-- NodeJS 6 (6.10.3)
+- NodeJS 8 (8.1.2)
 - kms-env 
 - s3-copy
 This image comes with [kms-env](https://github.com/ukayani/kms-env) installed.
