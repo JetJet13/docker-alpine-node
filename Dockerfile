@@ -7,7 +7,7 @@ ENV LANG C.UTF-8
 
 # install curl, bash, kms-env 0.2.16 and s3-copy 0.0.2
 RUN apk upgrade --update && \
-    apk add groff less python py-pip curl bash git openssh && \
+    apk add groff less python py-pip curl bash git openssl openssh && \
 	pip install awscli && \
 	apk --purge -v del py-pip && \
 	rm /var/cache/apk/* && \
