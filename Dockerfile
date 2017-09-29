@@ -1,4 +1,4 @@
-FROM node:8.1.5-alpine
+FROM node:8.5.0-alpine
 
 MAINTAINER LoyaltyOne
 
